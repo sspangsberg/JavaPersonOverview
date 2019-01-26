@@ -2,6 +2,7 @@ package ch.makery.address;
 
 //Java imports
 import java.io.IOException;
+import javafx.scene.image.Image;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,6 +11,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import javafx.stage.Modality;
 import javafx.collections.*;
+
 
 //Project imports
 import ch.makery.address.model.Person;
@@ -57,7 +59,8 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("AddressApp");
-
+        this.primaryStage.getIcons().add(new Image("file:resources/images/addressbook.png"));
+        
         initRootLayout();
 
         showPersonOverview();
@@ -110,7 +113,7 @@ public class MainApp extends Application {
      * clicks OK, the changes are saved into the provided person object and true
      * is returned.
      * 
-     * @param person, The person object to be edited
+     * @param person, The person object to be edited 
      * @return true if the user clicked Ok, false otherwise
      */
     public boolean showPersonEditDialog(Person person) {
@@ -125,6 +128,8 @@ public class MainApp extends Application {
             dialogStage.setTitle("Edit Person");
             dialogStage.initModality(Modality.WINDOW_MODAL);
             dialogStage.initOwner(primaryStage);
+            dialogStage.getIcons().add(new Image("file:resources/images/addressbook.png"));
+        
             Scene scene = new Scene(page);
             dialogStage.setScene(scene);
 
@@ -133,6 +138,7 @@ public class MainApp extends Application {
             controller.setDialogStage(dialogStage);
             controller.setPerson(person);
 
+                       
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
 

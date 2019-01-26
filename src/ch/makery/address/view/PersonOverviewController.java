@@ -95,6 +95,11 @@ public class PersonOverviewController {
     @FXML
     private void handleNewPerson() {
         Person tempPerson = new Person();
+        tempPerson.setFirstName("");
+        tempPerson.setLastName("");
+        tempPerson.setCity("");
+        tempPerson.setPostalCode(0);
+        tempPerson.setStreet("");
         
         boolean okClicked = mainApp.showPersonEditDialog(tempPerson);
         

@@ -72,6 +72,7 @@ public class PersonEditDialogController implements Initializable {
         firstNameField.setText(person.getFirstName());
         lastNameField.setText(person.getLastName());
         cityField.setText(person.getCity());
+        streetField.setText(person.getStreet());
         postalCodeField.setText(Integer.toString(person.getPostalCode()));
         birthdayField.setText(DateUtil.format(person.getBirthday()));
         
