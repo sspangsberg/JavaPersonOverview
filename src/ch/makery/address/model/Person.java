@@ -25,12 +25,11 @@ public class Person {
 
     /**
      * Default constructor.
-     */
-    /*
+     */    
     public Person() {
         this(null, null);
     }
-    */
+    
     /**
      * Constructor with some initial data.
          * 

@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="PersonOverview.jar" size="10596" download="eager" />
+    <jar href="PersonOverview.jar" size="16007" download="eager" />
   </resources>
 <security>
   <all-permissions/>
