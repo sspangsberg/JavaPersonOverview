@@ -16,4 +16,12 @@
         <postalCode>6700</postalCode>
         <street>White House Street</street>
     </person>
+    <person>
+        <birthday>1952-05-06</birthday>
+        <city>Esbjerg Ø</city>
+        <firstName>Annemarie</firstName>
+        <lastName>Spangsberg</lastName>
+        <postalCode>6705</postalCode>
+        <street>Strandby Kirkevej 147</street>
+    </person>
 </persons>
