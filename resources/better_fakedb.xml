@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+    <person>
+        <birthday>1981-05-03</birthday>
+        <city>Varde</city>
+        <firstName>Søren</firstName>
+        <lastName>Spangsberg</lastName>
+        <postalCode>6800</postalCode>
+        <street>Stilbjergvej 47</street>
+    </person>
+    <person>
+        <birthday>1999-02-21</birthday>
+        <city>Washinton</city>
+        <firstName>Barack</firstName>
+        <lastName>Obama</lastName>
+        <postalCode>6700</postalCode>
+        <street>White House Street</street>
+    </person>
+</persons>
